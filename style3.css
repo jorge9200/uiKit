@@ -1,0 +1,80 @@
+/* COMMON */
+
+.ui-view{
+  margin: 100px;
+}
+
+.ui-view .ui-tab-close{
+  float: left;
+  height: 26px;
+  width: 554px;
+  border-bottom: 1px solid #ccd3d5;
+  background-color: #f7f8fa;
+}
+
+.ui-view .ui-tab-element{
+  float: left;
+  list-style-type: none;
+  height: 25px;
+  min-width: 55px;
+  border-top: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+}
+
+.ui-view .ui-tab-element:hover{
+  border-top: 1px solid #ccd3d5;
+  border-right: 1px solid #ccd3d5;
+  border-left: 1px solid #ccd3d5;
+  background-color: #eef0f4;
+}
+
+.ui-view .ui-tab-element.active{
+  border-top: 1px solid #ccd3d5;
+  border-right: 1px solid #ccd3d5;
+  border-left: 1px solid #ccd3d5;
+  background-color: #fff;
+}
+
+.ui-view .ui-tab-element span{
+  float: left;
+  width: calc(100% - 20px);
+  text-align: center;
+  margin-top: 8px;
+  font-size: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.ui-view .ui-tab-element span{
+  color: #889399;
+}
+
+.ui-view.white .ui-tab-element.active span{
+  color: #545f65;
+}
+
+/* dark */
+
+.ui-view.dark .ui-tab-close{
+  border-bottom: 1px solid #323940;
+  background-color: #3f4750;
+}
+
+.ui-view.dark .ui-tab-element:hover{
+  border-top: 1px solid #363c43;
+  border-right: 1px solid #363c43;
+  border-left: 1px solid #363c43;
+  background-color: #363c43;
+}
+
+.ui-view.dark .ui-tab-element.active{
+  border-top: 1px solid #323940;
+  border-right: 1px solid #323940;
+  border-left: 1px solid #323940;
+  background-color: #545f65;
+}
+
+.ui-view.dark .ui-tab-element.active span{
+  color: #d2dce2;
+}
