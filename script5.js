@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-    $('.ui-checkbox-spot').on('click', function(){
+    $('.ui-radio-button').on('click', function(){
     var object = $(this);
     if(!object.hasClass('inactive')){
       if(object.hasClass('active')){
